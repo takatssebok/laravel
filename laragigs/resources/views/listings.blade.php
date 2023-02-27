@@ -1,3 +1,7 @@
+@extends('layout')
+
+@section('content')
+    
 <h1>{{$heading}}</h1>
 
 {{-- @if(count($listings)==0)
@@ -18,3 +22,5 @@
     @else
     <p>No listing found</p>
 @endunless
+
+@endsection
